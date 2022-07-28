@@ -1,0 +1,6 @@
+  id int AUTO_INCREMENT PRIMARY KEY , 
+    nome varchar (100), 
+    email varchar (100) UNIQUE,
+    senha varchar (100),
+    endereco varchar (100),
+    imagem varchar (100)
